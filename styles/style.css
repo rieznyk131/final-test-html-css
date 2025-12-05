@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    height: 86px;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background: rgba(239, 240, 243, 1);
+    padding-top: 8px;
+}
+
+.header__w1252 {
+    width: 1252px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header p{
+    font-weight: 600;
+    font-size: 36px;
+    color: #001858;
+}
+
+header .logo-violet {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(98, 70, 234, 1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+nav ul a {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(43, 44, 52, 1);
+}
+
+.nav-search {
+    width: 96px;
+    height: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.nav-search input {
+    width: 100px;
+    border: none;
+    margin-left: 10px;
+    padding-top: 8px;
+    background: rgba(239, 240, 243, 1);
+
+}
+
+.nav-search input::placeholder {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(43, 44, 52, 1);
+
+}
+
+.navbar-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4px;
+    padding: 10px 17px;
+    width: 213px;
+    height: 44px;
+    background-color: rgba(98, 70, 234, 1);
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.hero-section {
+    height: 814px;
+    background: rgba(239, 240, 243, 1);
+    padding-top: 164px;
+}
+
+.hero-section__w1252 {
+    width: 1252px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.hero-section__w1252 div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 664px;
+    height: 345px;
+}
+.hero-section__w1252 h1{
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: rgba(43, 44, 52, 1);
+    width: 617px;
+    height: 162px;
+}
+
+.hero-section__w1252 p {
+    width: 652px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(154, 148, 148, 1);
+    line-height: 25px;
+}
+
+.hero-section__subscribe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.hero-section__subscribe input[type=email] {
+    border-radius: 8px;
+    padding: 21px 200px 21px 25px;
+    width: 444px;
+    height: 67px;
+    background: rgba(255, 255, 254, 1);
+    border: none;
+}
+
+.hero-section__subscribe input[type=email]::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: rgba(192, 192, 192, 1);
+}
+
+.hero-section__subscribe input[type=submit] {
+    border-radius: 8px;
+    padding: 20px 23px 19px;
+    width: 145px;
+    height: 67px;
+    background-color: rgba(98, 70, 234, 1);
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 254, 1);
+    border: none;
+    cursor: pointer;
+}
+
+.category-section {
+    height: 500px;
+    background: rgba(239, 240, 243, 1);
+}
+
+.category-section__w1252 {
+    width: 1252px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: flex-start;
+    padding-top: 67px;
+}
+.category-section__w1252>div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-section h2 {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: rgba(43, 44, 52, 1);
+}
+
+.see-all__links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.see-all__links a:first-of-type {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: right;
+    color: rgba(43, 44, 52, 1);
+}
+
+.see-all__links a:last-of-type {
+    margin-top: 8px;
+}
+
+.category-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.category-card {
+    width: 220px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 8px;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background-color: rgba(255, 255, 254, 1);
+    padding-left: 43px;
+    transition: 1s;
+}
+.category-card p{
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: rgba(43, 44, 52, 1);
+}
+.card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.category-card:hover {
+    background: rgba(98, 70, 234, 1);
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+.category-card:hover p {
+    color: rgba(255, 255, 254, 1);
+}
+
+.category-card:hover .card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 7.46px;
+    background: rgba(255, 255, 254, 1);
+}
+
+.articles-section {
+    background: rgba(255, 255, 254, 1);
+}
+
+.articles-section__w1252{
+    width: 1252px;
+    height: 2344px;
+    margin: 0 auto;
+}
+.article-group {
+    padding-top: 80px;
+}
+
+.article-group-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article-group-name h2 {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: rgba(43, 44, 52, 1);
+}
+
+.article-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 30px;
+}
+
+.article-card {
+    border-radius: 12px;
+    padding: 25px 18px;
+    width: 300px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 254, 1);
+    transition: 0.5s;
+}
+
+.article-card a {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(43, 44, 52, 1);
+}
+
+
+.author-bio p {
+    color: rgba(43, 44, 52, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.author-bio {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 15px;
+    align-items: center;
+}
+.author-bio .author-name {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(43, 44, 52, 1);
+}
+
+.separator {
+    padding: 0 8px;
+}
+.article-card:hover {
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background: rgba(255, 255, 254, 1);
+    transition: 0.5s;
+}
+
+.articles-section__w1252 button {
+    width: 165px;
+    height: 64px;
+    background-color: rgba(98, 70, 234, 1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 254, 1);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 80px auto;
+
+}
