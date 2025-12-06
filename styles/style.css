@@ -8,9 +8,13 @@ body {
 
 header {
     height: 86px;
+    width: 100%;
     box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
     background: rgba(239, 240, 243, 1);
     padding-top: 8px;
+    position: fixed;
+    top: 0;
+
 }
 
 .header__w1252 {
