@@ -98,11 +98,13 @@ nav ul a {
     color: white;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+.burger-toggle {
+    display: none;
+}
 
 .hero-section {
-    height: 814px;
+    height: 90vh;
     background: rgba(239, 240, 243, 1);
-    padding-top: 164px;
 }
 
 .hero-section__w1252 {
@@ -110,7 +112,7 @@ nav ul a {
     height: 100%;
     margin: 0 auto;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
 }
 .hero-section__w1252 div{
@@ -211,7 +213,14 @@ nav ul a {
     justify-content: flex-start;
     gap: 12px;
 }
-
+.see-all__links-mob {
+    display: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: right;
+    color: rgba(43, 44, 52, 1);
+}
 .see-all__links a:first-of-type {
     font-weight: 700;
     font-size: 20px;
